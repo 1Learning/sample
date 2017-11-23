@@ -1,9 +1,15 @@
 package sample;
 
-public class Demo1 {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
-		System.out.println("hi");
+public class Demo1 {
+	
+	@Test
+	
+
+	public void display()
+	{
+		System.out.println("hi testng example");
 		// TODO Auto-generated method stub
 
 	}
